@@ -1,10 +1,8 @@
 console.log("AJAX");
-
-let fetchBtn = document.getElementById("fetchBtn");
 let backupBtn = document.getElementById("backupBtn");
+let fetchBtn = document.getElementById("fetchBtn");
 
 fetchBtn.addEventListener("click", fetchData);
-
 function fetchData(category) {
   // create xhr() object
   const xhr = new XMLHttpRequest();
